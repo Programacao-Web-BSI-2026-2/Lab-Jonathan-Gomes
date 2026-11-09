@@ -1,0 +1,15 @@
+
+<!DOCTYPE html>
+ <html lang="pt-BR">
+  <head>
+     <title>
+        Barra pesquisa
+     </title>
+  </head>
+ <form  class="#" action="https://www.google.com/?hl=pt_BR" method="get">
+  <input type="search" id="pesquisa" required>
+  <button type="submit">Buscar</button> 
+  <button type="reset">Limpar </button> 
+ </form>
+
+  </html>
