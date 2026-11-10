@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+     <title>Refatoração de Formulário Legado & Envio de Arquivos Binário</title>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta name="description" content="Área de contato do cliente para envio de mensagens ao suporte técnico.">
+    <title>Área de Contato do Cliente</title>
+  </head>
+<body>
+    <form class="" action=https://httpbin.org/post method="POST" enctype="multipart/form-data">
+      
+     <fieldset class="suporte">
+       <legend>Abrir Chamado Técnico</legend>
+       <label for="nome">Nome Completo:</label> 
+       <input type="text" id="nome" name="nome" value="" required>
+       <p>
+       <label for="E-mail">E-mail de Contato:</label>
+       <input type="e-mail" id="e-mail" name="e-mail" value="" required>
+       <p>
+       <label for="prioridade">Prioridade:</label>
+       <select name="prioridade" id="prioridade:" required>
+        <option>Baixa</option>
+        <option>Média</option>
+        <option>Alta</option>
+        <p>
+       <label for="arquivo">Arquivo de Log ou Print (PNG/PDF)</label>
+       <select name="arquivo" id="arquivo" required>
+
+     </fieldset>
+
+
+    </form>
+</body>
+</html>
