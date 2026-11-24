@@ -1,8 +1,8 @@
 
 :root {
-    --azul-escuro: #000000;
-    --azul: #26d104;
-    --azul-claro: #dbeafe;
+    --Preto: #000000;
+    --verde: #26d104;
+    --branco-2: #dbeafe;
     --fundo: #d8ffd3;
     --branco: #fff4f4;
     --texto: #1a1c1f;
@@ -51,10 +51,10 @@ ol {
 
 .topo {
     grid-area: topo;
-    background: var(--azul-escuro);
+    background: var(--Preto);
     color: var(--branco);
     padding: 20px 32px 18px;
-    border-bottom: 3px solid var(--azul);
+    border-bottom: 3px solid var(--verde);
 }
 
 .topo h1 {
@@ -89,15 +89,15 @@ ol {
 }
 
 .menu a:focus-visible {
-    outline: 2px solid var(--azul);
+    outline: 2px solid var(--verde);
     outline-offset: 1px;
 }
 
 
 .menu a.ativo {
-    background: var(--azul-claro);
-    border-left-color: var(--azul);
-    color: var(--azul-escuro);
+    background: var(--branco-2);
+    border-left-color: var(--verde);
+    color: var(--Preto);
     font-weight: 700;
 }
 
@@ -137,7 +137,7 @@ ol {
 
 .modulos ul a:hover {
     background: none;
-    color: var(--azul);
+    color: var(--verde);
     text-decoration: underline;
 }
 
