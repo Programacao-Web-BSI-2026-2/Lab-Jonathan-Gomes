@@ -1,78 +1,65 @@
-
-
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-   <meta charset="UTF-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="Pagina Principalweb github" content="Pagina Principal do repositório de atividades práticas e documentação da disciplina.">
-    <meta ower="Jonatha ngomes da silva">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página principal do repositório de atividades práticas e documentação da disciplina.">
+    <meta name="author" content="Jonathan Gomes da Silva">
     <title>Meu Portfólio de Programação Web</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <h1>Meu Portfólio de Programação Web</h1>
+    <header class="topo">
+        <h1>Meu Portfólio de Programação Web</h1>
+        <p>Repositório de atividades práticas e documentação da disciplina.</p>
+    </header>
 
+    <nav class="menu" aria-label="Menu principal">
 
-    <p>
-        Repositório de atividades práticas e documentação da disciplina.
-    </p>
+        <ul class="menu-topo">
+            <li><a class="ativo" href="index.html" aria-current="page">Início</a></li>
+            <li><a href="https://www.w3schools.com/">Material de Referência HTML</a></li>
+        </ul>
 
-    <h2>Menu Principal</h2>
+        <h2>Registros de sala de aula</h2>
+        <ul class="menu-lista">
+            <li><a href="DOCS/Registro%20da%20Prática%2001.md">Registro da Prática 01</a></li>
+            <li><a href="DOCS/Guia%20de%20Comandos%20Git.md">Guia de Comandos Git</a></li>
+        </ul>
 
+        <h2>Trilhas de laboratório</h2>
+        <ol class="modulos">
+            <li>
+                <strong>Módulo 1: Estrutura (HTML)</strong>
+                <ul>
+                    <li><a href="labs/01.html">Lab 01</a></li>
+                    <li><a href="labs/02/Pesquisa_jonathan.html">Lab 02</a></li>
+                </ul>
+            </li>
+        </ol>
 
-    <ul>
-        <li>
-            <strong>Início (Você está aqui)</strong>
-        </li>
+    </nav>
 
-        <li>
-            <a href="https://www.w3schools.com/">Material de Referência HTML</a>
-        </li>
+    <main class="conteudo">
+        <section>
+            <h2>Bem-vindo ao Portfólio</h2>
+            <p>
+                Este espaço reúne as entregas práticas realizadas ao longo da disciplina.
+                Use o menu lateral para navegar entre os registros de sala de aula e
+                os laboratórios organizados por módulo.
+            </p>
+        </section>
 
-        <li>
-            Registros de Sala de Aula (Markdown):
-            <ul>
-                <li>
-                    <a href="DOCS/Registro da Prática 01.md">Registro da Prática 01</a>
-                </li>
-                <li>
-                    <a href="DOCS/uia de Comandos Git.md">Guia de Comandos Git</a>
-                </li>
-            </ul>
-        </li>
-
-        <li>
-            Trilhas de Laboratório:
-
-            <ol>
-                <li>
-                    <strong>Módulo 1: Estrutura (HTML)</strong>
-
-                    <ul>
-                        <li>
-                            <a href="labs/01.html">Lab 01 </a>
-                        </li>
-                        <li>
-                             <a href="labs/02/Pesquisa_jonathan.html">Lab 02  </a>
-                        </li>
-                
-                    </ul>
-                </li>
-
-    </ul>
-
-    <hr>
-
-    <h2>Status do Projeto</h2>
-
-    <p>
-        Este site consolida tanto as implementações práticas (HTML)
-        quanto a documentação técnica (Markdown) elaborada durante as aulas.
-    </p>
+        <section>
+            <h2>Status do Projeto</h2>
+            <p>
+                Este site consolida tanto as implementações práticas (HTML)
+                quanto a documentação técnica (Markdown) elaborada durante as aulas.
+            </p>
+        </section>
+    </main>
 
 </body>
 </html>
